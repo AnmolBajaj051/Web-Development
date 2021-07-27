@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Noto+Sans+JP:wght@700&family=Ubuntu&display=swap');
+
+body{
+    background-color: rgb(255, 254, 251);
+}
+ h1{
+     
+    text-align: center;
+    padding :10px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    
+     font-family: 'Dancing Script', cursive;
+    background-color: black;
+}  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+   
+
+.container {
+    
+    border-radius: 10px;
+   
+     margin-left: 13.5%;
+    margin-right: 13.5%; 
+}
+
+
+
+
+.box {
+    padding: 12px;
+}
+
+
+
+
+.contacts {
+    border-radius: 5px;
+    position: sticky;
+    top: 0%;
+    background-color: black;
+    color: white;
+    
+    font-size: 38px;
+    padding-left: 12px;
+    
+}
+
+
+
+
+.content ul li {
+     font-family: 'Lobster', cursive;
+
+    background-color: #A5A58D;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 12px;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;  
+}
+
+
+/* unicons */
+
+i.uil-user-circle {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contactNum {
+    float: right;
+}
+
+i.uil-phone,
+.uil-comment-alt-lines,
+.uil-whatsapp {
+    padding: 6px;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+i.uil-whatsapp {
+    color: rgb(11, 150, 11);
+}
+
+i.uil-phone:hover {
+    font-size: 30px;
+}
+
+i.uil-comment-alt-lines:hover {
+    font-size: 30px;
+}
+
+i.uil-whatsapp:hover {
+    font-size: 30px;
+}
+
+
+/* footer  */
+
+footer {
+    background-color:black;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+}
+
